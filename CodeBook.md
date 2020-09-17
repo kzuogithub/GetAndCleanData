@@ -1,4 +1,3 @@
-
 ## Project Name: Human Activity Recognition Using Smartphones Dataset
 
 **Data Dictionary**
@@ -12,75 +11,75 @@
 ***These signals were used to estimate variables of the feature vector for each pattern:***  
 ***'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.***
 
-tBodyAcc-XYZ
+- tBodyAcc-XYZ
 
-tGravityAcc-XYZ
+- tGravityAcc-XYZ
 
-tBodyAccJerk-XYZ
+- tBodyAccJerk-XYZ
 
-tBodyGyro-XYZ
+- tBodyGyro-XYZ
 
-tBodyGyroJerk-XYZ
+- tBodyGyroJerk-XYZ
 
-tBodyAccMag
+- tBodyAccMag
 
-tGravityAccMag
+- tGravityAccMag
 
-tBodyAccJerkMag
+- tBodyAccJerkMag
 
-tBodyGyroMag
+- tBodyGyroMag
 
-tBodyGyroJerkMag
+- tBodyGyroJerkMag
 
-fBodyAcc-XYZ
+- fBodyAcc-XYZ
 
-fBodyAccJerk-XYZ
+- fBodyAccJerk-XYZ
 
-fBodyGyro-XYZ
+- BodyGyro-XYZ
 
-fBodyAccMag
+- fBodyAccMag
 
-fBodyAccJerkMag
+- fBodyAccJerkMag
 
-fBodyGyroMag
+- fBodyGyroMag
 
-fBodyGyroJerkMag
+- fBodyGyroJerkMag
 
 ***The set of variables that were estimated from these signals are:*** 
 
-mean(): Mean value
+- mean(): Mean value
 
-std(): Standard deviation
+- std(): Standard deviation
 
-mad(): Median absolute deviation 
+- mad(): Median absolute deviation 
 
-max(): Largest value in array
+- max(): Largest value in array
 
-min(): Smallest value in array
+- min(): Smallest value in array
 
-sma(): Signal magnitude area
+- sma(): Signal magnitude area
 
-energy(): Energy measure. Sum of the squares divided by the number of values. 
+- energy(): Energy measure. Sum of the squares divided by the number of values. 
 
-iqr(): Interquartile range 
+- iqr(): Interquartile range 
 
-entropy(): Signal entropy
+- entropy(): Signal entropy
 
-arCoeff(): Autorregresion coefficients with Burg order equal to 4
+- arCoeff(): Autorregresion coefficients with Burg order equal to 4
 
-correlation(): correlation coefficient between two signals
+- correlation(): correlation coefficient between two signals
 
-maxInds(): index of the frequency component with largest magnitude
+- maxInds(): index of the frequency component with largest magnitude
 
-meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+- meanFreq(): Weighted average of the frequency components to obtain a mean frequency
 
-skewness(): skewness of the frequency domain signal 
+- skewness(): skewness of the frequency domain signal 
 
-kurtosis(): kurtosis of the frequency domain signal 
+- kurtosis(): kurtosis of the frequency domain signal 
 
-bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+- bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 
-angle(): Angle between to vectors.
+- angle(): Angle between to vectors.
 
 ***Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:***
 
@@ -122,62 +121,101 @@ acType: CHAR
 •	correlation coefficient between two body acceleration signals from two axial directions
 
 1 tBodyAcc-mean()-X: mean value of body acceleration signal at X axial direction
+
 2 tBodyAcc-mean()-Y: mean value of body acceleration signal at Y axial direction
+
 3 tBodyAcc-mean()-Z: mean value of body acceleration signal at Z axial direction
+
 4 tBodyAcc-std()-X: Standard deviation of body acceleration signal at X axial direction
+
 5 tBodyAcc-std()-Y: Standard deviation of body acceleration signal at Y axial direction
+
 6 tBodyAcc-std()-Z: Standard deviation of body acceleration signal at Z axial direction
+
 7 tBodyAcc-mad()-X: Median absolute deviation of body acceleration signal at X axial direction
+
 8 tBodyAcc-mad()-Y: Median absolute deviation of body acceleration signal at Y axial direction
+
 9 tBodyAcc-mad()-Z: Median absolute deviation of body acceleration signal at Z axial direction
+
 10 tBodyAcc-max()-X: Largest value in array of body acceleration signal at X axial direction
+
 11 tBodyAcc-max()-Y: Largest value in array of body acceleration signal at Y axial direction
+
 12 tBodyAcc-max()-Z: Largest value in array of body acceleration signal at Z axial direction
+
 13 tBodyAcc-min()-X: Smallest value in array of body acceleration signal at X axial direction
+
 14 tBodyAcc-min()-Y: Smallest value in array of body acceleration signal at Y axial direction
+
 15 tBodyAcc-min()-Z: Smallest value in array of body acceleration signal at Z axial direction
+
 16 tBodyAcc-sma(): Signal magnitude area of body acceleration
+
 17 tBodyAcc-energy()-X: Energy measure of body acceleration signal at X axial direction
+
 18 tBodyAcc-energy()-Y: Energy measure of body acceleration signal at Y axial direction
+
 19 tBodyAcc-energy()-Z: Energy measure of body acceleration signal at Z axial direction
+
 20 tBodyAcc-iqr()-X: Interquartile range of body acceleration signal at X axial direction
+
 21 tBodyAcc-iqr()-Y: Interquartile range of body acceleration signal at Y axial direction
+
 22 tBodyAcc-iqr()-Z: Interquartile range of body acceleration signal at Z axial direction
+
 23 tBodyAcc-entropy()-X: Signal entropy range of body acceleration signal at X axial direction
+
 24 tBodyAcc-entropy()-Y: Signal entropy range of body acceleration signal at Y axial direction
+
 25 tBodyAcc-entropy()-Z: Signal entropy range of body acceleration signal at Z axial direction
+
 26 tBodyAcc-arCoeff()-X,1: Autorregresion coefficients with Burg order equal to 4 of body acceleration signal          
-                                                at X axial direction for activity Walking
+at X axial direction for activity Walking
+
 27 tBodyAcc-arCoeff()-X,2: Autorregresion coefficients with Burg order equal to 4 of body acceleration signal          
                                                 at X axial direction for Activity Walking Upstairs
+
 28 tBodyAcc-arCoeff()-X,3: Autorregresion coefficients with Burg order equal to 4 of body acceleration signal          
                                                 at X axial direction for activity Walking Downstairs
+
 29 tBodyAcc-arCoeff()-X,4: Autorregresion coefficients with Burg order equal to 4 of body acceleration signal          
                                                 at X axial direction for activity Sitting
+
 30 tBodyAcc-arCoeff()-Y,1: Autorregresion coefficients with Burg order equal to 4 of body acceleration signal          
                                                 at Y axial direction for activity Walking
+
 31 tBodyAcc-arCoeff()-Y,2: Autorregresion coefficients with Burg order equal to 4 of body acceleration signal          
                                                 at Y axial direction for Activity Walking Upstairs
+
 32 tBodyAcc-arCoeff()-Y,3: Autorregresion coefficients with Burg order equal to 4 of body acceleration signal          
                                                 at Y axial direction for activity Walking Downstairs
+
 33 tBodyAcc-arCoeff()-Y,4: Autorregresion coefficients with Burg order equal to 4 of body acceleration signal          
                                                 at Y axial direction for activity Sitting
+
 34 tBodyAcc-arCoeff()-Z,1: Autorregresion coefficients with Burg order equal to 4 of body acceleration signal          
                                                 at Z axial direction for activity Walking
+
 35 tBodyAcc-arCoeff()-Z,2: Autorregresion coefficients with Burg order equal to 4 of body acceleration signal          
                                                 at Z axial direction for Activity Walking Upstairs
+
 36 tBodyAcc-arCoeff()-Z,3: Autorregresion coefficients with Burg order equal to 4 of body acceleration signal          
                                                 at Z axial direction for activity Walking Downstairs
+
 37 tBodyAcc-arCoeff()-Z,4: Autorregresion coefficients with Burg order equal to 4 of body acceleration signal          
                                                 at Z axial direction for activity Sitting
+
 38 tBodyAcc-correlation()-X,Y: correlation coefficient between two body acceleration signals from X axial 
                                                        direction and Y axial direction
+
 39 tBodyAcc-correlation()-X,Z: correlation coefficient between two body acceleration signals from X axial 
                                                        direction and Z axial direction
+
 40 tBodyAcc-correlation()-Y,Z: correlation coefficient between two body acceleration signals from Y axial 
                                                        direction and Z axial direction
 
-Varaible 41-80 are Gravity Acceleration Measurements, by X, Y and Z axial, respectively:
+***Varaible 41-80 are Gravity Acceleration Measurements, by X, Y and Z axial, respectively:***
 •	Mean
 •	Standard deviation
 •	Median absolute deviation
@@ -188,47 +226,88 @@ Varaible 41-80 are Gravity Acceleration Measurements, by X, Y and Z axial, respe
 •	Signal entropy range
 •	Autorregresion coefficients with Burg order equal to 4
 •	correlation coefficient between two body acceleration signals from two axial directions
+
 41 tGravityAcc-mean()-X
+
 42 tGravityAcc-mean()-Y
+
 43 tGravityAcc-mean()-Z
+
 44 tGravityAcc-std()-X
+
 45 tGravityAcc-std()-Y
+
 46 tGravityAcc-std()-Z
+
 47 tGravityAcc-mad()-X
+
 48 tGravityAcc-mad()-Y
+
 49 tGravityAcc-mad()-Z
+
 50 tGravityAcc-max()-X
+
 51 tGravityAcc-max()-Y
+
 52 tGravityAcc-max()-Z
+
 53 tGravityAcc-min()-X
+
 54 tGravityAcc-min()-Y
+
 55 tGravityAcc-min()-Z
+
 56 tGravityAcc-sma()
+
 57 tGravityAcc-energy()-X
+
 58 tGravityAcc-energy()-Y
+
 59 tGravityAcc-energy()-Z
+
 60 tGravityAcc-iqr()-X
+
 61 tGravityAcc-iqr()-Y
+
 62 tGravityAcc-iqr()-Z
+
 63 tGravityAcc-entropy()-X
+
 64 tGravityAcc-entropy()-Y
+
 65 tGravityAcc-entropy()-Z
+
 66 tGravityAcc-arCoeff()-X,1
+
 67 tGravityAcc-arCoeff()-X,2
+
 68 tGravityAcc-arCoeff()-X,3
+
 69 tGravityAcc-arCoeff()-X,4
+
 70 tGravityAcc-arCoeff()-Y,1
+
 71 tGravityAcc-arCoeff()-Y,2
+
 72 tGravityAcc-arCoeff()-Y,3
+
 73 tGravityAcc-arCoeff()-Y,4
+
 74 tGravityAcc-arCoeff()-Z,1
+
 75 tGravityAcc-arCoeff()-Z,2
+
 76 tGravityAcc-arCoeff()-Z,3
+
 77 tGravityAcc-arCoeff()-Z,4
+
 78 tGravityAcc-correlation()-X,Y
+
 79 tGravityAcc-correlation()-X,Z
+
 80 tGravityAcc-correlation()-Y,Z
-Varaible 81-120 are Body Acceleration Jerk Signal Measurements, by X, Y and Z axial, respectively:
+
+***Varaible 81-120 are Body Acceleration Jerk Signal Measurements, by X, Y and Z axial, respectively:***
 •	Mean
 •	Standard deviation
 •	Median absolute deviation
@@ -239,47 +318,88 @@ Varaible 81-120 are Body Acceleration Jerk Signal Measurements, by X, Y and Z ax
 •	Signal entropy range
 •	Autorregresion coefficients with Burg order equal to 4
 •	correlation coefficient between two body acceleration signals from two axial directions
+
 81 tBodyAccJerk-mean()-X
+
 82 tBodyAccJerk-mean()-Y
+
 83 tBodyAccJerk-mean()-Z
+
 84 tBodyAccJerk-std()-X
+
 85 tBodyAccJerk-std()-Y
+
 86 tBodyAccJerk-std()-Z
+
 87 tBodyAccJerk-mad()-X
+
 88 tBodyAccJerk-mad()-Y
+
 89 tBodyAccJerk-mad()-Z
+
 90 tBodyAccJerk-max()-X
+
 91 tBodyAccJerk-max()-Y
+
 92 tBodyAccJerk-max()-Z
+
 93 tBodyAccJerk-min()-X
+
 94 tBodyAccJerk-min()-Y
+
 95 tBodyAccJerk-min()-Z
+
 96 tBodyAccJerk-sma()
+
 97 tBodyAccJerk-energy()-X
+
 98 tBodyAccJerk-energy()-Y
+
 99 tBodyAccJerk-energy()-Z
+
 100 tBodyAccJerk-iqr()-X
+
 101 tBodyAccJerk-iqr()-Y
+
 102 tBodyAccJerk-iqr()-Z
+
 103 tBodyAccJerk-entropy()-X
+
 104 tBodyAccJerk-entropy()-Y
+
 105 tBodyAccJerk-entropy()-Z
+
 106 tBodyAccJerk-arCoeff()-X,1
+
 107 tBodyAccJerk-arCoeff()-X,2
+
 108 tBodyAccJerk-arCoeff()-X,3
+
 109 tBodyAccJerk-arCoeff()-X,4
+
 110 tBodyAccJerk-arCoeff()-Y,1
+
 111 tBodyAccJerk-arCoeff()-Y,2
+
 112 tBodyAccJerk-arCoeff()-Y,3
+
 113 tBodyAccJerk-arCoeff()-Y,4
+
 114 tBodyAccJerk-arCoeff()-Z,1
+
 115 tBodyAccJerk-arCoeff()-Z,2
+
 116 tBodyAccJerk-arCoeff()-Z,3
+
 117 tBodyAccJerk-arCoeff()-Z,4
+
 118 tBodyAccJerk-correlation()-X,Y
+
 119 tBodyAccJerk-correlation()-X,Z
+
 120 tBodyAccJerk-correlation()-Y,Z
-Varaible 121-160 are Body Gyroscope Signal Measurements, by X, Y , Z axial, respectively:
+
+***Varaible 121-160 are Body Gyroscope Signal Measurements, by X, Y , Z axial, respectively:***
 •	Mean
 •	Standard deviation
 •	Median absolute deviation
@@ -290,47 +410,88 @@ Varaible 121-160 are Body Gyroscope Signal Measurements, by X, Y , Z axial, resp
 •	Signal entropy range
 •	Autorregresion coefficients with Burg order equal to 4
 •	correlation coefficient between two body acceleration signals from two axial directions
+
 121 tBodyGyro-mean()-X
+
 122 tBodyGyro-mean()-Y
+
 123 tBodyGyro-mean()-Z
+
 124 tBodyGyro-std()-X
+
 125 tBodyGyro-std()-Y
+
 126 tBodyGyro-std()-Z
+
 127 tBodyGyro-mad()-X
+
 128 tBodyGyro-mad()-Y
+
 129 tBodyGyro-mad()-Z
+
 130 tBodyGyro-max()-X
+
 131 tBodyGyro-max()-Y
+
 132 tBodyGyro-max()-Z
+
 133 tBodyGyro-min()-X
+
 134 tBodyGyro-min()-Y
+
 135 tBodyGyro-min()-Z
+
 136 tBodyGyro-sma()
+
 137 tBodyGyro-energy()-X
+
 138 tBodyGyro-energy()-Y
+
 139 tBodyGyro-energy()-Z
+
 140 tBodyGyro-iqr()-X
+
 141 tBodyGyro-iqr()-Y
+
 142 tBodyGyro-iqr()-Z
+
 143 tBodyGyro-entropy()-X
+
 144 tBodyGyro-entropy()-Y
+
 145 tBodyGyro-entropy()-Z
+
 146 tBodyGyro-arCoeff()-X,1
+
 147 tBodyGyro-arCoeff()-X,2
+
 148 tBodyGyro-arCoeff()-X,3
+
 149 tBodyGyro-arCoeff()-X,4
+
 150 tBodyGyro-arCoeff()-Y,1
+
 151 tBodyGyro-arCoeff()-Y,2
+
 152 tBodyGyro-arCoeff()-Y,3
+
 153 tBodyGyro-arCoeff()-Y,4
+
 154 tBodyGyro-arCoeff()-Z,1
+
 155 tBodyGyro-arCoeff()-Z,2
+
 156 tBodyGyro-arCoeff()-Z,3
+
 157 tBodyGyro-arCoeff()-Z,4
+
 158 tBodyGyro-correlation()-X,Y
+
 159 tBodyGyro-correlation()-X,Z
+
 160 tBodyGyro-correlation()-Y,Z
-Varaible 161-200 are Body Gyroscope Jerk Signal Measurements, by X, Y , Z axial, respectively:
+
+***Varaible 161-200 are Body Gyroscope Jerk Signal Measurements, by X, Y , Z axial, respectively:***
 •	Mean
 •	Standard deviation
 •	Median absolute deviation
@@ -341,6 +502,7 @@ Varaible 161-200 are Body Gyroscope Jerk Signal Measurements, by X, Y , Z axial,
 •	Signal entropy range
 •	Autorregresion coefficients with Burg order equal to 4
 •	correlation coefficient between two body acceleration signals from two axial directions
+
 161 tBodyGyroJerk-mean()-X
 162 tBodyGyroJerk-mean()-Y
 163 tBodyGyroJerk-mean()-Z
