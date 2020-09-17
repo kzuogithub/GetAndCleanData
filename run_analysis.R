@@ -34,7 +34,7 @@ head(varName)
 #read in X- train text file
 trainData0 <- read.table("C:\\Users\\kaili\\OneDrive\\Documents\\Data Science\\Getting and Cleaning Data\\data\\train\\X_train.txt", 
                          header=F, col.names = varName)
-head(trainData0)
+
 #read in Y_train text file: label of six different activity
 yTrain <- read.table("C:\\Users\\kaili\\OneDrive\\Documents\\Data Science\\Getting and Cleaning Data\\data\\train\\Y_train.txt", 
                      header=F, col.names="acType")
@@ -45,9 +45,6 @@ subTrain <- read.table("C:\\Users\\kaili\\OneDrive\\Documents\\Data Science\\Get
 
 #add subject and activity type to training data
 trainData <- cbind(subTrain, yTrain, trainData0)
-dim(trainData)
-head(trainData,n=3)
-str(trainData)
 
 ####### read in testing data set #######
 #read in X - test text file
@@ -64,7 +61,6 @@ subTest <- read.table("C:\\Users\\kaili\\OneDrive\\Documents\\Data Science\\Gett
 
 #add subject and activity type to training data
 testData <- cbind(subTest, yTest, testData0)
-dim(testData)
 
 #1. Merge the training and the test sets to create one data set
 totalData <- rbind(trainData,testData)
@@ -100,4 +96,4 @@ str(totalDatanew)
 # of each variable for each activity and each subject
 secondData <- aggregate(. ~ Activity + Subject, totalDatanew, mean)
 dim(secondData)
-head(secondData, n=10)
+
