@@ -93,20 +93,20 @@
 
 - tBodyGyroJerkMean
 
-**Variable1 to Variable 563 are descripted as follow:**
+**There are 563 variables in dataset, Subject and acType are two new created variables**
 
-***There are two new variables created: Subject and acType (Activity Type)***
+Subject: Integer,  Value between 1 and 30
 
-Subject: Integer, Value between 1 and 30
-
-acType: CHAR   
-       Activity Code
+acType (Activity Type): CHAR   
+ Activity Code
 1.	Walking
 2.	Walking – Upstairs
 3.	Walking – Downstairs
 4.	Sitting
 5.	Standing
 6.	Laying
+ 
+**Variable 1 to Variable 561 are descripted as follow:**
 
 ***Variable 1-40 are Body Acceleration Measurements, by X, Y and Z axial, respectively:***
 •	Mean
@@ -1447,7 +1447,7 @@ at X axial direction for activity Walking
 
 554 fBodyBodyGyroJerkMag-kurtosis()
 
-***Variable 555-561 are The Angles between two vectors ***
+***Variable 555-561 are The Angles between two vectors***
 
 555 angle(tBodyAccMean,gravity): Angle between vector Body Acceleration Mean and vector Gravity 
 
