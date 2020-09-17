@@ -1,5 +1,5 @@
 # Getting-and-Cleaning-Data
-# Getting and Cleaning Data week4 Course Project
+
 ## Project Name: Human Activity Recognition Using Smartphones Dataset
 
 **For each record it is provided**    
@@ -7,8 +7,6 @@
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration 
 - Triaxial Angular velocity from the gyroscope                                                     
 - A 561-feature vector with time and frequency domain variables
-
-**The following is how the script in run_analysis.R works:**
 
 **Part1: Load library and create data directory**
 
