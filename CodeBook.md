@@ -93,12 +93,12 @@
 
 - tBodyGyroJerkMean
 
-**There are 563 variables in dataset, Subject and acType are two new created variables**
+**There are total 563 variables in dataset, where Subject and acType are two new created variables**
 
 Subject: Integer,  Value between 1 and 30
 
 acType (Activity Type): CHAR   
- Activity Code
+ Activity Code: 1,2,3,4,5,6
 1.	Walking
 2.	Walking – Upstairs
 3.	Walking – Downstairs
