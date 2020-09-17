@@ -93,7 +93,7 @@
 
 - tBodyGyroJerkMean
 
-###Variable1 to Variable 563 are descripted as follow:
+**Variable1 to Variable 563 are descripted as follow:**
 
 ***There are two new variables created: Subject and acType (Activity Type)***
 
@@ -504,47 +504,86 @@ at X axial direction for activity Walking
 •	correlation coefficient between two body acceleration signals from two axial directions
 
 161 tBodyGyroJerk-mean()-X
+
 162 tBodyGyroJerk-mean()-Y
+
 163 tBodyGyroJerk-mean()-Z
+
 164 tBodyGyroJerk-std()-X
+
 165 tBodyGyroJerk-std()-Y
+
 166 tBodyGyroJerk-std()-Z
+
 167 tBodyGyroJerk-mad()-X
+
 168 tBodyGyroJerk-mad()-Y
+
 169 tBodyGyroJerk-mad()-Z
+
 170 tBodyGyroJerk-max()-X
+
 171 tBodyGyroJerk-max()-Y
+
 172 tBodyGyroJerk-max()-Z
+
 173 tBodyGyroJerk-min()-X
+
 174 tBodyGyroJerk-min()-Y
+
 175 tBodyGyroJerk-min()-Z
+
 176 tBodyGyroJerk-sma()
+
 177 tBodyGyroJerk-energy()-X
+
 178 tBodyGyroJerk-energy()-Y
+
 179 tBodyGyroJerk-energy()-Z
+
 180 tBodyGyroJerk-iqr()-X
+
 181 tBodyGyroJerk-iqr()-Y
+
 182 tBodyGyroJerk-iqr()-Z
+
 183 tBodyGyroJerk-entropy()-X
+
 184 tBodyGyroJerk-entropy()-Y
+
 185 tBodyGyroJerk-entropy()-Z
+
 186 tBodyGyroJerk-arCoeff()-X,1
+
 187 tBodyGyroJerk-arCoeff()-X,2
+
 188 tBodyGyroJerk-arCoeff()-X,3
+
 189 tBodyGyroJerk-arCoeff()-X,4
+
 190 tBodyGyroJerk-arCoeff()-Y,1
+
 191 tBodyGyroJerk-arCoeff()-Y,2
+
 192 tBodyGyroJerk-arCoeff()-Y,3
+
 193 tBodyGyroJerk-arCoeff()-Y,4
+
 194 tBodyGyroJerk-arCoeff()-Z,1
+
 195 tBodyGyroJerk-arCoeff()-Z,2
+
 196 tBodyGyroJerk-arCoeff()-Z,3
+
 197 tBodyGyroJerk-arCoeff()-Z,4
+
 198 tBodyGyroJerk-correlation()-X,Y
+
 199 tBodyGyroJerk-correlation()-X,Z
+
 200 tBodyGyroJerk-correlation()-Y,Z
-the magnitude of these three-dimensional signals
-Varaible 201-213 are The Magnitude of these Three-Dimensional Body Acceleration Signals Measurements:
+
+***Varaible 201-213 are The Magnitude of these Three-Dimensional Body Acceleration Signals Measurements:***
 •	Mean
 •	Standard deviation
 •	Median absolute deviation
@@ -554,21 +593,34 @@ Varaible 201-213 are The Magnitude of these Three-Dimensional Body Acceleration 
 •	Interquartile range
 •	Signal entropy range
 •	Autorregresion coefficients with Burg order equal to 4
+
 201 tBodyAccMag-mean()
+
 202 tBodyAccMag-std()
+
 203 tBodyAccMag-mad()
+
 204 tBodyAccMag-max()
+
 205 tBodyAccMag-min()
+
 206 tBodyAccMag-sma()
+
 207 tBodyAccMag-energy()
+
 208 tBodyAccMag-iqr()
+
 209 tBodyAccMag-entropy()
+
 210 tBodyAccMag-arCoeff()1
+
 211 tBodyAccMag-arCoeff()2
+
 212 tBodyAccMag-arCoeff()3
+
 213 tBodyAccMag-arCoeff()4
-Varaible 214-226 are The Magnitude of these Three-Dimensional Gravity Acceleration Signals 
-Measurements:
+
+***Varaible 214-226 are The Magnitude of these Three-Dimensional Gravity Acceleration Signals Measurements:***
 •	Mean
 •	Standard deviation
 •	Median absolute deviation
@@ -578,21 +630,34 @@ Measurements:
 •	Interquartile range
 •	Signal entropy range
 •	Autorregresion coefficients with Burg order equal to 4
+
 214 tGravityAccMag-mean()
+
 215 tGravityAccMag-std()
+
 216 tGravityAccMag-mad()
+
 217 tGravityAccMag-max()
+
 218 tGravityAccMag-min()
+
 219 tGravityAccMag-sma()
+
 220 tGravityAccMag-energy()
+
 221 tGravityAccMag-iqr()
+
 222 tGravityAccMag-entropy()
+
 223 tGravityAccMag-arCoeff()1
+
 224 tGravityAccMag-arCoeff()2
+
 225 tGravityAccMag-arCoeff()3
+
 226 tGravityAccMag-arCoeff()4
-Varaible 227-239 are The Magnitude of these Three-Dimensional Body Acceleration Jerk Signals 
-Measurements:
+
+***Varaible 227-239 are The Magnitude of these Three-Dimensional Body Acceleration Jerk Signals Measurements:***
 •	Mean
 •	Standard deviation
 •	Median absolute deviation
@@ -602,20 +667,34 @@ Measurements:
 •	Interquartile range
 •	Signal entropy range
 •	Autorregresion coefficients with Burg order equal to 4
+
 227 tBodyAccJerkMag-mean()
+
 228 tBodyAccJerkMag-std()
+
 229 tBodyAccJerkMag-mad()
+
 230 tBodyAccJerkMag-max()
+
 231 tBodyAccJerkMag-min()
+
 232 tBodyAccJerkMag-sma()
+
 233 tBodyAccJerkMag-energy()
+
 234 tBodyAccJerkMag-iqr()
+
 235 tBodyAccJerkMag-entropy()
+
 236 tBodyAccJerkMag-arCoeff()1
+
 237 tBodyAccJerkMag-arCoeff()2
+
 238 tBodyAccJerkMag-arCoeff()3
+
 239 tBodyAccJerkMag-arCoeff()4
-Varaible 240-252 are The Magnitude of these Three-Dimensional Body Gyroscope Signals Measurements:
+
+***Varaible 240-252 are The Magnitude of these Three-Dimensional Body Gyroscope Signals Measurements:***
 •	Mean
 •	Standard deviation
 •	Median absolute deviation
@@ -625,21 +704,34 @@ Varaible 240-252 are The Magnitude of these Three-Dimensional Body Gyroscope Sig
 •	Interquartile range
 •	Signal entropy range
 •	Autorregresion coefficients with Burg order equal to 4
+
 240 tBodyGyroMag-mean()
+
 241 tBodyGyroMag-std()
+
 242 tBodyGyroMag-mad()
+
 243 tBodyGyroMag-max()
+
 244 tBodyGyroMag-min()
+
 245 tBodyGyroMag-sma()
+
 246 tBodyGyroMag-energy()
+
 247 tBodyGyroMag-iqr()
+
 248 tBodyGyroMag-entropy()
+
 249 tBodyGyroMag-arCoeff()1
+
 250 tBodyGyroMag-arCoeff()2
+
 251 tBodyGyroMag-arCoeff()3
+
 252 tBodyGyroMag-arCoeff()4
-Varaible 253-265 are The Magnitude of these Three-Dimensional Body Gyroscope Jerk Signals 
-Measurements:
+
+***Varaible 253-265 are The Magnitude of these Three-Dimensional Body Gyroscope Jerk Signals Measurements:***
 •	Mean
 •	Standard deviation
 •	Median absolute deviation
@@ -649,20 +741,34 @@ Measurements:
 •	Interquartile range
 •	Signal entropy range
 •	Autorregresion coefficients with Burg order equal to 4
+
 253 tBodyGyroJerkMag-mean()
+
 254 tBodyGyroJerkMag-std()
+
 255 tBodyGyroJerkMag-mad()
+
 256 tBodyGyroJerkMag-max()
+
 257 tBodyGyroJerkMag-min()
+
 258 tBodyGyroJerkMag-sma()
+
 259 tBodyGyroJerkMag-energy()
+
 260 tBodyGyroJerkMag-iqr()
+
 261 tBodyGyroJerkMag-entropy()
+
 262 tBodyGyroJerkMag-arCoeff()1
+
 263 tBodyGyroJerkMag-arCoeff()2
+
 264 tBodyGyroJerkMag-arCoeff()3
+
 265 tBodyGyroJerkMag-arCoeff()4
-Variable 266-344 are The Fast Fourier Transformed Body Acceleration frequency domain signals Measurements, by X, Y and Z axial, respectively:
+
+***Variable 266-344 are The Fast Fourier Transformed Body Acceleration frequency domain signals Measurements, by X, Y and Z axial, respectively:***
 •	Mean
 •	Standard deviation
 •	Median absolute deviation
@@ -676,86 +782,166 @@ Variable 266-344 are The Fast Fourier Transformed Body Acceleration frequency do
 •	Skewness of the frequency domain signal 
 •	Kurtosis of the frequency domain signal 
 •	BandsEnergy (Energy of a frequency interval within the 64 bins of the FFT of each window)
+
 266 fBodyAcc-mean()-X
+
 267 fBodyAcc-mean()-Y
+
 268 fBodyAcc-mean()-Z
+
 269 fBodyAcc-std()-X
+
 270 fBodyAcc-std()-Y
+
 271 fBodyAcc-std()-Z
+
 272 fBodyAcc-mad()-X
+
 273 fBodyAcc-mad()-Y
+
 274 fBodyAcc-mad()-Z
+
 275 fBodyAcc-max()-X
+
 276 fBodyAcc-max()-Y
+
 277 fBodyAcc-max()-Z
+
 278 fBodyAcc-min()-X
+
 279 fBodyAcc-min()-Y
+
 280 fBodyAcc-min()-Z
+
 281 fBodyAcc-sma()
+
 282 fBodyAcc-energy()-X
+
 283 fBodyAcc-energy()-Y
+
 284 fBodyAcc-energy()-Z
+
 285 fBodyAcc-iqr()-X
+
 286 fBodyAcc-iqr()-Y
+
 287 fBodyAcc-iqr()-Z
+
 288 fBodyAcc-entropy()-X
+
 289 fBodyAcc-entropy()-Y
+
 290 fBodyAcc-entropy()-Z
+
 291 fBodyAcc-maxInds-X
+
 292 fBodyAcc-maxInds-Y
+
 293 fBodyAcc-maxInds-Z
+
 294 fBodyAcc-meanFreq()-X
+
 295 fBodyAcc-meanFreq()-Y
+
 296 fBodyAcc-meanFreq()-Z
+
 297 fBodyAcc-skewness()-X
+
 298 fBodyAcc-kurtosis()-X
+
 299 fBodyAcc-skewness()-Y
+
 300 fBodyAcc-kurtosis()-Y
+
 301 fBodyAcc-skewness()-Z
+
 302 fBodyAcc-kurtosis()-Z
+
 303 fBodyAcc-bandsEnergy()-1,8
+
 304 fBodyAcc-bandsEnergy()-9,16
+
 305 fBodyAcc-bandsEnergy()-17,24
+
 306 fBodyAcc-bandsEnergy()-25,32
+
 307 fBodyAcc-bandsEnergy()-33,40
+
 308 fBodyAcc-bandsEnergy()-41,48
+
 309 fBodyAcc-bandsEnergy()-49,56
+
 310 fBodyAcc-bandsEnergy()-57,64
+
 311 fBodyAcc-bandsEnergy()-1,16
+
 312 fBodyAcc-bandsEnergy()-17,32
+
 313 fBodyAcc-bandsEnergy()-33,48
+
 314 fBodyAcc-bandsEnergy()-49,64
+
 315 fBodyAcc-bandsEnergy()-1,24
+
 316 fBodyAcc-bandsEnergy()-25,48
+
 317 fBodyAcc-bandsEnergy()-1,8
+
 318 fBodyAcc-bandsEnergy()-9,16
+
 319 fBodyAcc-bandsEnergy()-17,24
+
 320 fBodyAcc-bandsEnergy()-25,32
+
 321 fBodyAcc-bandsEnergy()-33,40
+
 322 fBodyAcc-bandsEnergy()-41,48
+
 323 fBodyAcc-bandsEnergy()-49,56
+
 324 fBodyAcc-bandsEnergy()-57,64
+
 325 fBodyAcc-bandsEnergy()-1,16
+
 326 fBodyAcc-bandsEnergy()-17,32
+
 327 fBodyAcc-bandsEnergy()-33,48
+
 328 fBodyAcc-bandsEnergy()-49,64
+
 329 fBodyAcc-bandsEnergy()-1,24
+
 330 fBodyAcc-bandsEnergy()-25,48
+
 331 fBodyAcc-bandsEnergy()-1,8
+
 332 fBodyAcc-bandsEnergy()-9,16
+
 333 fBodyAcc-bandsEnergy()-17,24
+
 334 fBodyAcc-bandsEnergy()-25,32
+
 335 fBodyAcc-bandsEnergy()-33,40
+
 336 fBodyAcc-bandsEnergy()-41,48
+
 337 fBodyAcc-bandsEnergy()-49,56
+
 338 fBodyAcc-bandsEnergy()-57,64
+
 339 fBodyAcc-bandsEnergy()-1,16
+
 340 fBodyAcc-bandsEnergy()-17,32
+
 341 fBodyAcc-bandsEnergy()-33,48
+
 342 fBodyAcc-bandsEnergy()-49,64
+
 343 fBodyAcc-bandsEnergy()-1,24
+
 344 fBodyAcc-bandsEnergy()-25,48
-Variable 345-423 are The Fast Fourier Transformed Body Acceleration Jerk frequency domain signals Measurements, by X, Y and Z axial, respectively:
+
+***Variable 345-423 are The Fast Fourier Transformed Body Acceleration Jerk frequency domain signals Measurements, by X, Y and Z axial, respectively:***
 •	Mean
 •	Standard deviation
 •	Median absolute deviation
@@ -769,86 +955,166 @@ Variable 345-423 are The Fast Fourier Transformed Body Acceleration Jerk frequen
 •	Skewness of the frequency domain signal 
 •	Kurtosis of the frequency domain signal 
 •	BandsEnergy (Energy of a frequency interval within the 64 bins of the FFT of each window)
+
 345 fBodyAccJerk-mean()-X
+
 346 fBodyAccJerk-mean()-Y
+
 347 fBodyAccJerk-mean()-Z
+
 348 fBodyAccJerk-std()-X
+
 349 fBodyAccJerk-std()-Y
+
 350 fBodyAccJerk-std()-Z
+
 351 fBodyAccJerk-mad()-X
+
 352 fBodyAccJerk-mad()-Y
+
 353 fBodyAccJerk-mad()-Z
+
 354 fBodyAccJerk-max()-X
+
 355 fBodyAccJerk-max()-Y
+
 356 fBodyAccJerk-max()-Z
+
 357 fBodyAccJerk-min()-X
+
 358 fBodyAccJerk-min()-Y
+
 359 fBodyAccJerk-min()-Z
+
 360 fBodyAccJerk-sma()
+
 361 fBodyAccJerk-energy()-X
+
 362 fBodyAccJerk-energy()-Y
+
 363 fBodyAccJerk-energy()-Z
+
 364 fBodyAccJerk-iqr()-X
+
 365 fBodyAccJerk-iqr()-Y
+
 366 fBodyAccJerk-iqr()-Z
+
 367 fBodyAccJerk-entropy()-X
+
 368 fBodyAccJerk-entropy()-Y
+
 369 fBodyAccJerk-entropy()-Z
+
 370 fBodyAccJerk-maxInds-X
+
 371 fBodyAccJerk-maxInds-Y
+
 372 fBodyAccJerk-maxInds-Z
+
 373 fBodyAccJerk-meanFreq()-X
+
 374 fBodyAccJerk-meanFreq()-Y
+
 375 fBodyAccJerk-meanFreq()-Z
+
 376 fBodyAccJerk-skewness()-X
+
 377 fBodyAccJerk-kurtosis()-X
+
 378 fBodyAccJerk-skewness()-Y
+
 379 fBodyAccJerk-kurtosis()-Y
+
 380 fBodyAccJerk-skewness()-Z
+
 381 fBodyAccJerk-kurtosis()-Z
+
 382 fBodyAccJerk-bandsEnergy()-1,8
+
 383 fBodyAccJerk-bandsEnergy()-9,16
+
 384 fBodyAccJerk-bandsEnergy()-17,24
+
 385 fBodyAccJerk-bandsEnergy()-25,32
+
 386 fBodyAccJerk-bandsEnergy()-33,40
+
 387 fBodyAccJerk-bandsEnergy()-41,48
+
 388 fBodyAccJerk-bandsEnergy()-49,56
+
 389 fBodyAccJerk-bandsEnergy()-57,64
+
 390 fBodyAccJerk-bandsEnergy()-1,16
+
 391 fBodyAccJerk-bandsEnergy()-17,32
+
 392 fBodyAccJerk-bandsEnergy()-33,48
+
 393 fBodyAccJerk-bandsEnergy()-49,64
+
 394 fBodyAccJerk-bandsEnergy()-1,24
+
 395 fBodyAccJerk-bandsEnergy()-25,48
+
 396 fBodyAccJerk-bandsEnergy()-1,8
+
 397 fBodyAccJerk-bandsEnergy()-9,16
+
 398 fBodyAccJerk-bandsEnergy()-17,24
+
 399 fBodyAccJerk-bandsEnergy()-25,32
+
 400 fBodyAccJerk-bandsEnergy()-33,40
+
 401 fBodyAccJerk-bandsEnergy()-41,48
+
 402 fBodyAccJerk-bandsEnergy()-49,56
+
 403 fBodyAccJerk-bandsEnergy()-57,64
+
 404 fBodyAccJerk-bandsEnergy()-1,16
+
 405 fBodyAccJerk-bandsEnergy()-17,32
+
 406 fBodyAccJerk-bandsEnergy()-33,48
+
 407 fBodyAccJerk-bandsEnergy()-49,64
+
 408 fBodyAccJerk-bandsEnergy()-1,24
+
 409 fBodyAccJerk-bandsEnergy()-25,48
+
 410 fBodyAccJerk-bandsEnergy()-1,8
+
 411 fBodyAccJerk-bandsEnergy()-9,16
+
 412 fBodyAccJerk-bandsEnergy()-17,24
+
 413 fBodyAccJerk-bandsEnergy()-25,32
+
 414 fBodyAccJerk-bandsEnergy()-33,40
+
 415 fBodyAccJerk-bandsEnergy()-41,48
+
 416 fBodyAccJerk-bandsEnergy()-49,56
+
 417 fBodyAccJerk-bandsEnergy()-57,64
+
 418 fBodyAccJerk-bandsEnergy()-1,16
+
 419 fBodyAccJerk-bandsEnergy()-17,32
+
 420 fBodyAccJerk-bandsEnergy()-33,48
+
 421 fBodyAccJerk-bandsEnergy()-49,64
+
 422 fBodyAccJerk-bandsEnergy()-1,24
+
 423 fBodyAccJerk-bandsEnergy()-25,48
-Variable 424-502 are The Fast Fourier Transformed Body Gyroscope frequency domain signals Measurements, by X, Y and Z axial, respectively:
+
+***Variable 424-502 are The Fast Fourier Transformed Body Gyroscope frequency domain signals Measurements, by X, Y and Z axial, respectively:***
 •	Mean
 •	Standard deviation
 •	Median absolute deviation
@@ -862,86 +1128,166 @@ Variable 424-502 are The Fast Fourier Transformed Body Gyroscope frequency domai
 •	Skewness of the frequency domain signal 
 •	Kurtosis of the frequency domain signal 
 •	BandsEnergy (Energy of a frequency interval within the 64 bins of the FFT of each window)
+
 424 fBodyGyro-mean()-X
+
 425 fBodyGyro-mean()-Y
+
 426 fBodyGyro-mean()-Z
+
 427 fBodyGyro-std()-X
+
 428 fBodyGyro-std()-Y
+
 429 fBodyGyro-std()-Z
+
 430 fBodyGyro-mad()-X
+
 431 fBodyGyro-mad()-Y
+
 432 fBodyGyro-mad()-Z
+
 433 fBodyGyro-max()-X
+
 434 fBodyGyro-max()-Y
+
 435 fBodyGyro-max()-Z
+
 436 fBodyGyro-min()-X
+
 437 fBodyGyro-min()-Y
+
 438 fBodyGyro-min()-Z
+
 439 fBodyGyro-sma()
+
 440 fBodyGyro-energy()-X
+
 441 fBodyGyro-energy()-Y
+
 442 fBodyGyro-energy()-Z
+
 443 fBodyGyro-iqr()-X
+
 444 fBodyGyro-iqr()-Y
+
 445 fBodyGyro-iqr()-Z
+
 446 fBodyGyro-entropy()-X
+
 447 fBodyGyro-entropy()-Y
+
 448 fBodyGyro-entropy()-Z
+
 449 fBodyGyro-maxInds-X
+
 450 fBodyGyro-maxInds-Y
+
 451 fBodyGyro-maxInds-Z
+
 452 fBodyGyro-meanFreq()-X
+
 453 fBodyGyro-meanFreq()-Y
+
 454 fBodyGyro-meanFreq()-Z
+
 455 fBodyGyro-skewness()-X
+
 456 fBodyGyro-kurtosis()-X
+
 457 fBodyGyro-skewness()-Y
+
 458 fBodyGyro-kurtosis()-Y
+
 459 fBodyGyro-skewness()-Z
+
 460 fBodyGyro-kurtosis()-Z
+
 461 fBodyGyro-bandsEnergy()-1,8
+
 462 fBodyGyro-bandsEnergy()-9,16
+
 463 fBodyGyro-bandsEnergy()-17,24
+
 464 fBodyGyro-bandsEnergy()-25,32
+
 465 fBodyGyro-bandsEnergy()-33,40
+
 466 fBodyGyro-bandsEnergy()-41,48
+
 467 fBodyGyro-bandsEnergy()-49,56
+
 468 fBodyGyro-bandsEnergy()-57,64
+
 469 fBodyGyro-bandsEnergy()-1,16
+
 470 fBodyGyro-bandsEnergy()-17,32
+
 471 fBodyGyro-bandsEnergy()-33,48
+
 472 fBodyGyro-bandsEnergy()-49,64
+
 473 fBodyGyro-bandsEnergy()-1,24
+
 474 fBodyGyro-bandsEnergy()-25,48
+
 475 fBodyGyro-bandsEnergy()-1,8
+
 476 fBodyGyro-bandsEnergy()-9,16
+
 477 fBodyGyro-bandsEnergy()-17,24
+
 478 fBodyGyro-bandsEnergy()-25,32
+
 479 fBodyGyro-bandsEnergy()-33,40
+
 480 fBodyGyro-bandsEnergy()-41,48
+
 481 fBodyGyro-bandsEnergy()-49,56
+
 482 fBodyGyro-bandsEnergy()-57,64
+
 483 fBodyGyro-bandsEnergy()-1,16
+
 484 fBodyGyro-bandsEnergy()-17,32
+
 485 fBodyGyro-bandsEnergy()-33,48
+
 486 fBodyGyro-bandsEnergy()-49,64
+
 487 fBodyGyro-bandsEnergy()-1,24
+
 488 fBodyGyro-bandsEnergy()-25,48
+
 489 fBodyGyro-bandsEnergy()-1,8
+
 490 fBodyGyro-bandsEnergy()-9,16
+
 491 fBodyGyro-bandsEnergy()-17,24
+
 492 fBodyGyro-bandsEnergy()-25,32
+
 493 fBodyGyro-bandsEnergy()-33,40
+
 494 fBodyGyro-bandsEnergy()-41,48
+
 495 fBodyGyro-bandsEnergy()-49,56
+
 496 fBodyGyro-bandsEnergy()-57,64
+
 497 fBodyGyro-bandsEnergy()-1,16
+
 498 fBodyGyro-bandsEnergy()-17,32
+
 499 fBodyGyro-bandsEnergy()-33,48
+
 500 fBodyGyro-bandsEnergy()-49,64
+
 501 fBodyGyro-bandsEnergy()-1,24
+
 502 fBodyGyro-bandsEnergy()-25,48
-Variable 503-515 are The Magnitude of these Three-Dimensional Fast Fourier Transformed Body Acceleration frequency Domain Signals Measurements:
+
+***Variable 503-515 are The Magnitude of these Three-Dimensional Fast Fourier Transformed Body Acceleration frequency Domain Signals Measurements:***
 •	Mean
 •	Standard deviation
 •	Median absolute deviation
@@ -954,20 +1300,34 @@ Variable 503-515 are The Magnitude of these Three-Dimensional Fast Fourier Trans
 •	Weighted average of the frequency components to obtain a mean frequency
 •	Skewness of the frequency domain signal 
 •	Kurtosis of the frequency domain signal 
+
 503 fBodyAccMag-mean()
+
 504 fBodyAccMag-std()
+
 505 fBodyAccMag-mad()
+
 506 fBodyAccMag-max()
+
 507 fBodyAccMag-min()
+
 508 fBodyAccMag-sma()
+
 509 fBodyAccMag-energy()
+
 510 fBodyAccMag-iqr()
+
 511 fBodyAccMag-entropy()
+
 512 fBodyAccMag-maxInds
+
 513 fBodyAccMag-meanFreq()
+
 514 fBodyAccMag-skewness()
+
 515 fBodyAccMag-kurtosis()
-Variable 516-528 are The Magnitude of these Three-Dimensional Fast Fourier Transformed Body Acceleration Jerk frequency Domain Signals Measurements:
+
+***Variable 516-528 are The Magnitude of these Three-Dimensional Fast Fourier Transformed Body Acceleration Jerk frequency Domain Signals Measurements:***
 •	Mean
 •	Standard deviation
 •	Median absolute deviation
@@ -980,20 +1340,34 @@ Variable 516-528 are The Magnitude of these Three-Dimensional Fast Fourier Trans
 •	Weighted average of the frequency components to obtain a mean frequency
 •	Skewness of the frequency domain signal 
 •	Kurtosis of the frequency domain signal 
+
 516 fBodyBodyAccJerkMag-mean()
+
 517 fBodyBodyAccJerkMag-std()
+
 518 fBodyBodyAccJerkMag-mad()
+
 519 fBodyBodyAccJerkMag-max()
+
 520 fBodyBodyAccJerkMag-min()
+
 521 fBodyBodyAccJerkMag-sma()
+
 522 fBodyBodyAccJerkMag-energy()
+
 523 fBodyBodyAccJerkMag-iqr()
+
 524 fBodyBodyAccJerkMag-entropy()
+
 525 fBodyBodyAccJerkMag-maxInds
+
 526 fBodyBodyAccJerkMag-meanFreq()
+
 527 fBodyBodyAccJerkMag-skewness()
+
 528 fBodyBodyAccJerkMag-kurtosis()
-Variable 529-541 are The Magnitude of these Three-Dimensional Fast Fourier Transformed Body Gyroscope frequency Domain Signals Measurements:
+
+***Variable 529-541 are The Magnitude of these Three-Dimensional Fast Fourier Transformed Body Gyroscope frequency Domain Signals Measurements:***
 •	Mean
 •	Standard deviation
 •	Median absolute deviation
@@ -1008,19 +1382,32 @@ Variable 529-541 are The Magnitude of these Three-Dimensional Fast Fourier Trans
 •	Kurtosis of the frequency domain signal 
 
 529 fBodyBodyGyroMag-mean()
+
 530 fBodyBodyGyroMag-std()
+
 531 fBodyBodyGyroMag-mad()
+
 532 fBodyBodyGyroMag-max()
+
 533 fBodyBodyGyroMag-min()
+
 534 fBodyBodyGyroMag-sma()
+
 535 fBodyBodyGyroMag-energy()
+
 536 fBodyBodyGyroMag-iqr()
+
 537 fBodyBodyGyroMag-entropy()
+
 538 fBodyBodyGyroMag-maxInds
+
 539 fBodyBodyGyroMag-meanFreq()
+
 540 fBodyBodyGyroMag-skewness()
+
 541 fBodyBodyGyroMag-kurtosis()
-Variable 542-554 are The Magnitude of these Three-Dimensional Fast Fourier Transformed Body Gyroscope Jerk frequency Domain Signals Measurements:
+
+***Variable 542-554 are The Magnitude of these Three-Dimensional Fast Fourier Transformed Body Gyroscope Jerk frequency Domain Signals Measurements:***
 •	Mean
 •	Standard deviation
 •	Median absolute deviation
@@ -1033,26 +1420,47 @@ Variable 542-554 are The Magnitude of these Three-Dimensional Fast Fourier Trans
 •	Weighted average of the frequency components to obtain a mean frequency
 •	Skewness of the frequency domain signal 
 •	Kurtosis of the frequency domain signal 
+
 542 fBodyBodyGyroJerkMag-mean()
+
 543 fBodyBodyGyroJerkMag-std()
+
 544 fBodyBodyGyroJerkMag-mad()
+
 545 fBodyBodyGyroJerkMag-max()
+
 546 fBodyBodyGyroJerkMag-min()
+
 547 fBodyBodyGyroJerkMag-sma()
+
 548 fBodyBodyGyroJerkMag-energy()
+
 549 fBodyBodyGyroJerkMag-iqr()
+
 550 fBodyBodyGyroJerkMag-entropy()
+
 551 fBodyBodyGyroJerkMag-maxInds
+
 552 fBodyBodyGyroJerkMag-meanFreq()
+
 553 fBodyBodyGyroJerkMag-skewness()
+
 554 fBodyBodyGyroJerkMag-kurtosis()
-Variable 555-561 are The Angles between two vectors 
+
+***Variable 555-561 are The Angles between two vectors ***
+
 555 angle(tBodyAccMean,gravity): Angle between vector Body Acceleration Mean and vector Gravity 
+
 556 angle(tBodyAccJerkMean),gravityMean): Angle between Body Acceleration Jerk Mean  and Gravity Mean
+
 557 angle(tBodyGyroMean,gravityMean): Angle between vector Body Gyroscope mean and Gravity Mean                                                          
+
 558 angle(tBodyGyroJerkMean,gravityMean): Angle between Body Gyroscope Jerk mean and Gravity Mean                      
+
 559 angle(X,gravityMean): Angle between vector Gravity Mean and X vector
+
 560 angle(Y,gravityMean): Angle between vector Gravity Mean and Y vector
+
 561 angle(Z,gravityMean): Angle between vector Gravity Mean and Z vector
 
 **The End**
