@@ -9,7 +9,7 @@
 - A 561-feature vector with time and frequency domain variables
 
 **The following is how the script in run_analysis.R works:**
-============================================================
+
 **Part1: Load library and create data directory**
 
 library(dplyr)
